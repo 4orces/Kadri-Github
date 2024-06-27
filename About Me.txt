@@ -1,0 +1,5 @@
+About Me
+My name is Kadri Damilola. I am a graduate of microbiology from Obafemi Awolowo University, Ile-Ife, Osun State. 
+Currently, I work as a Quality Analyst at Hugo. My role involves ensuring the accuracy and quality of data, which has honed my attention to detail and commitment to excellence. 
+I am passionate about expanding my expertise in the field of quality assurance and am eager to transition into a QA tester role. I am familiar with various testing tools and methodologies, and I am dedicated to learning and implementing new techniques to enhance software quality and user experience. 
+I have a strong analytical skills and a keen eye for detail. I am excited to apply these skills to software testing, ensuring that product meet the highest standard of quality before getting to the end users.
