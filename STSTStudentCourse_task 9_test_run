@@ -1,0 +1,372 @@
+{
+	"id": "e4c06c8d-9f52-4893-9bd2-56b6130e18e2",
+	"name": "STSTStudentCourse",
+	"timestamp": "2024-07-04T23:38:58.082Z",
+	"collection_id": "36588259-c1248c6c-d595-400d-8ab1-d51f4c735d93",
+	"folder_id": 0,
+	"environment_id": "36588259-34bf68a8-2117-45ec-8535-e433c4008692",
+	"totalPass": 6,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-04T23:38:50.717Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0be6e5cd-0bd4-4ed7-9e5b-e4aebd7ad775",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 510,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"verify that the status code is 200": true,
+				"verify that the status code has string OK": true,
+				"verify that the response body has string": true,
+				"verify that there's a consumer catergory in the response": true,
+				"verify that the response body is correct": true
+			},
+			"testPassFailCounts": {
+				"verify that the status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that the status code has string OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that the response body has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that there's a consumer catergory in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that the response body is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				510
+			],
+			"allTests": [
+				{
+					"verify that the status code is 200": true,
+					"verify that the status code has string OK": true,
+					"verify that the response body has string": true,
+					"verify that there's a consumer catergory in the response": true,
+					"verify that the response body is correct": true
+				}
+			]
+		},
+		{
+			"id": "8048437b-2298-4dc3-b1d0-e1deabd881c7",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 213,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				213
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "92d953e9-26f3-4657-9496-981cd990168e",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/index.php?todo_id=2",
+			"time": 185,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				185
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4937d452-c6a4-4535-be88-ef9e50bc0f97",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/",
+			"time": 184,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				184
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9626cdfc-4fc1-49a2-b5e5-442fc41c4e5e",
+			"name": "Get All Books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 739,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"verify the presence ofThe Vanishing Half in the bookFolder": true
+			},
+			"testPassFailCounts": {
+				"verify the presence ofThe Vanishing Half in the bookFolder": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				739
+			],
+			"allTests": [
+				{
+					"verify the presence ofThe Vanishing Half in the bookFolder": true
+				}
+			]
+		},
+		{
+			"id": "5dd17855-17ca-40fd-b40c-e0ef275e898a",
+			"name": "Get Books by ID",
+			"url": "https://simple-books-api.glitch.me/books/1",
+			"time": 323,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				323
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "972ff6e6-9c55-4871-b203-c9441a0e5747",
+			"name": "Get Books by Type",
+			"url": "https://simple-books-api.glitch.me/books?type=fiction",
+			"time": 292,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				292
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f88b38ea-8aa2-4bba-b2a5-928ff65f62fe",
+			"name": "Place a book order - using book ID",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 397,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				397
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ad8959a2-2a16-4a38-a29d-10ca3c83feff",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 413,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				413
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c58940b3-c724-4573-8d0b-e48e1aba6312",
+			"name": "Get an order - using orderID",
+			"url": "https://simple-books-api.glitch.me/orders/QFUqZRZrpFJIufCEfoZQW",
+			"time": 326,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				326
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6faf383d-b279-484b-9ac7-50ec34c8768d",
+			"name": "Update an order",
+			"url": "https://simple-books-api.glitch.me/orders/",
+			"time": 513,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				513
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c009b473-3fce-4ce2-9112-f7e6fdb27f6e",
+			"name": "Delete an order",
+			"url": "https://simple-books-api.glitch.me/orders/QFUqZRZrpFJIufCEfoZQW",
+			"time": 761,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				761
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5ccdb96b-7348-4e66-8bfc-1e73082c4f6d",
+			"name": "Register API Client",
+			"url": "https://simple-books-api.glitch.me/api-clients/",
+			"time": 412,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				412
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "23b5dead-4019-409f-8bfc-f6791274940a",
+			"name": "Get API Status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 263,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				263
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5531,
+	"collection": {
+		"requests": [
+			{
+				"id": "0be6e5cd-0bd4-4ed7-9e5b-e4aebd7ad775",
+				"method": "GET"
+			},
+			{
+				"id": "8048437b-2298-4dc3-b1d0-e1deabd881c7",
+				"method": "GET"
+			},
+			{
+				"id": "92d953e9-26f3-4657-9496-981cd990168e",
+				"method": "GET"
+			},
+			{
+				"id": "4937d452-c6a4-4535-be88-ef9e50bc0f97",
+				"method": "GET"
+			},
+			{
+				"id": "9626cdfc-4fc1-49a2-b5e5-442fc41c4e5e",
+				"method": "GET"
+			},
+			{
+				"id": "5dd17855-17ca-40fd-b40c-e0ef275e898a",
+				"method": "GET"
+			},
+			{
+				"id": "972ff6e6-9c55-4871-b203-c9441a0e5747",
+				"method": "GET"
+			},
+			{
+				"id": "f88b38ea-8aa2-4bba-b2a5-928ff65f62fe",
+				"method": "POST"
+			},
+			{
+				"id": "ad8959a2-2a16-4a38-a29d-10ca3c83feff",
+				"method": "GET"
+			},
+			{
+				"id": "c58940b3-c724-4573-8d0b-e48e1aba6312",
+				"method": "GET"
+			},
+			{
+				"id": "6faf383d-b279-484b-9ac7-50ec34c8768d",
+				"method": "POST"
+			},
+			{
+				"id": "c009b473-3fce-4ce2-9112-f7e6fdb27f6e",
+				"method": "DELETE"
+			},
+			{
+				"id": "5ccdb96b-7348-4e66-8bfc-1e73082c4f6d",
+				"method": "POST"
+			},
+			{
+				"id": "23b5dead-4019-409f-8bfc-f6791274940a",
+				"method": "GET"
+			}
+		]
+	}
+}
